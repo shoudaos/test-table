@@ -1,0 +1,9 @@
+$font-size-base: 14px;
+$padding-base: 5px;
+$transition-base: all .2s ease-in-out;
+
+@mixin bg-variant($parent, $color) {
+  #{$parent} {
+    background-color: $color !important;
+  }
+}
